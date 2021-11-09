@@ -1,44 +1,50 @@
 <html>
+  <head>
   <title>
     Test on navigation bar.
     </title>
+    
+    <style>
+      nav {
+   height: 70px;
+   line-height: 70px;
+   border: 1px  solid green;
+ }
+
+ nav ul {
+    list-style: none;
+    width: 90%;
+    border: 1px solid red;
+     text-align:right
+ }
+
+nav ul li {
+  display: inline-block;
+  font-size: 60%;
+  margin-right: 0;
+  border : 1px solid yellow;
+ 
+ }  
+      </style>
+    </head>
   
   
   <body>
     
     
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
 
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
-}
     
-    
-    <ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li style="float:right"><a class="active" href="#about">About</a></li>
-</ul>
+<nav>
+        <div class="row">
+            <div class="col-md-9 col-sm-9">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">Research</a></li>
+                    <li><a href="#">Seminar</a></li>
+                </ul>
+            </div>
+            </div>
+       </nav>
 
 
     
